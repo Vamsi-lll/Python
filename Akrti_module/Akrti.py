@@ -53,14 +53,17 @@ def Right_Reverse_traingle(width=5,symbol="*"):
 
         
 #-------------------------------------------------------------- Pyramid function -----------------------------------------------     
-def Pyramid(width=5,symbol=" *"):
+def Pyramid(width=5,symbol="*"):
     for i in range(width):
-        print(" "*(width-i)+symbol*i)
+        print(" "*(width-i)+(symbol+" ")*i)
         
 #-------------------------------------------------------------- Pyramid_Reverse function --------------------------------------
 def Pyramid_Reverse(width=5,symbol="*"):
     for i in range(width):
-        print(" "*i+symbol*(width-i))
+        print(" "*i+(symbol+" ")*(width-i))
+
+
+
 
 
 
