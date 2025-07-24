@@ -1,4 +1,4 @@
-# 🧱 ShapePrinter Module
+# Akrti pattren Module
 
 A Python module for generating and printing basic geometric patterns with customizable width and symbols. Perfect for learning nested loops, visual formatting, and experimenting with console art.
 
