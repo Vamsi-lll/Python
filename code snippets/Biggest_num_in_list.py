@@ -1,17 +1,27 @@
-# approch-1
-# using predefined modules
+# biggest in the given list
 
-lst=[2,4,5,7,1,6,8,333,23]
-print(f"biggest num  in the given list list {max(lst)}")
+#app-1 (using inbuilt functions)
+""" def Max(lst):
+    return max(lst) """
 
+#app-2 (using sort function)
+""" def Max(lst):
+    if type(lst) != list:
+        return 'pls enter valid formate'
+    else:
+        lst.sort()
+        return lst[-1] """
+        
+#app-3 (with out using any predefine function)
 
-# approch-2
-#uing own sorting and finding the biggest
-
-big=0
-new_list=[]
-for i in lst:
-    if i>big:
-        big=i
-        new_list.append(big)
-print(f"biggest in the given list is {new_list[-1]}")
+def Max(lst):
+    j=0
+    if type(lst)!=list:
+        return 'pls enter valid formate'
+    else:
+        for i in lst:
+            if i>j:
+                j=i
+        return j
+    
+print(Max([3,5,6,2,1,8,4,9]))
