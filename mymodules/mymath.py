@@ -52,4 +52,34 @@ def factroial_of(n):
     return initial_num
 
 
+""" ===========================================       Areas       ================================ """
+# area of square
+# Formula Side x Side
+def AOSquare(side):
+    side=int(side)
+    return side*side
 
+# area of rectangle
+# Formula length x width
+def AORectangle(length,width):
+    return length*width
+
+# area of circle
+# Formula  pi(3.14159) x radius x radius
+def AOCircle(radius):
+    area= 3.14159*(radius**2)
+    return area
+
+# circumfrence of circle
+# formula 2 x pi(3.14159) x radius
+def COCircle(radius):
+    circumfrence=2*3.14159*radius
+    return circumfrence
+
+
+# Area of traingle
+# formula 1/2*base*height => 0.5 x base x height
+def AOTraingle( *,base,height):
+    area=0.5*base*height
+    return area
+    
