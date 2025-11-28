@@ -96,6 +96,11 @@ def COCircle(radius):
 def AOTraingle( *,base,height):
     area=0.5*base*height
     return area
+""" ===========================================       volums       ================================ """
+
+# volume of cube
+def Volume_cube(num):
+    return num**3
 
 """ ===========================================  perfect square or not ============================ """
 def is_perfectSquare(num):
