@@ -108,6 +108,12 @@ def volume_sphere(radius):
     value=((4/3)* 3.141592653589793*radius**3)
     return value
 
+# volume of cylinder
+def volume_cylinder(radius,height):
+    return ( 3.141592653589793*radius*radius*height )
+
+
+
 """ ===========================================  perfect square or not ============================ """
 def is_perfectSquare(num):
     for i in range(2,num+1):
