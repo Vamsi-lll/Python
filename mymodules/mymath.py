@@ -40,6 +40,20 @@ def is_prime(n):
                 return False
             else:
                 return True
+
+#return list of prime numbers
+
+def prime_list(num):
+    lst = []
+    for j in range(2, num+1):   # check each number
+        is_prime = True
+        for i in range(2, int(j**0.5)+1):  # check divisors up to sqrt(j)
+            if j % i == 0:
+                is_prime = False
+                break
+        if is_prime:
+            lst.append(j)
+    return lst
             
 
 """ =========================================== Number Range and List============================ """
