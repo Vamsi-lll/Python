@@ -82,4 +82,11 @@ def COCircle(radius):
 def AOTraingle( *,base,height):
     area=0.5*base*height
     return area
-    
+
+""" ===========================================  perfect square or not ============================ """
+def is_perfectSquare(num):
+    for i in range(2,num+1):
+        if int(num/i)==i:
+            print(i)
+            return True
+    return False
