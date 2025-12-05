@@ -23,6 +23,7 @@ Install dependencies:
 ```bash
 pip install pyautogui pillow
 
+```
 ⚠️ Safety Notes
 - PyAutoGUI has a fail-safe trigger: move your mouse to the top-left corner (0,0) to stop execution.
 - Always test scripts with caution to avoid unintended clicks or keystrokes.
