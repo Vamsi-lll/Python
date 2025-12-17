@@ -22,3 +22,19 @@ for word in sentence.split():
     else:
         word_coun[word] += 1
 '''
+
+
+'''----------------------------- task-----------------------------------'''
+''' inp:aaabbcccdd
+    out:3a2b3c2d'''
+
+string="aaabbcccdd"
+lst=[i for i in string]
+word_count={}
+for alf in lst:
+    if alf not in word_count:
+        word_count[alf]=1
+    else:
+        word_count[alf]+=1
+for i,j in word_count.items():
+    print(f"{j}{i}",end="")
