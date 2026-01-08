@@ -20,6 +20,7 @@ def qr(data,imgname):
     # Saving the image
     img.save(imgname+".png")
 qr(data,imgname)
+#printing the conformation message 
 print("sucessfull")
 input("press enter to exit")
 
