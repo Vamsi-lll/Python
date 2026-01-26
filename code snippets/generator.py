@@ -21,3 +21,14 @@ for i in my_generator_var:
     print(i)
 
 # this is how the generator function works and how we can loop through it 
+
+#  let us see another example as we already know the range() function which will return the numbers between the start and end value but it never give the end value 
+#  using this this generator consept let us create our own range function which will give the end value as well
+def my_range(start,end):
+    for i in range(start,end+1):
+        yield i
+        
+my_range_var=my_range(1,10)
+for i in my_range_var:
+    print(i)
+#  this is one of the example for the generator function whic will return the number from 1 to 10 including the 10 as well
