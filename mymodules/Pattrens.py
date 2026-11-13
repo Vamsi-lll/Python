@@ -42,3 +42,10 @@ def Floyd_Triangle(length=5):
         print()
 
 
+def R_N_T(length=5):
+    end=2
+    for i in range(length):
+        for j in range(1,end):
+            print(j,end=" ")
+        end+=1
+        print()
