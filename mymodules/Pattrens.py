@@ -49,3 +49,12 @@ def R_N_T(length=5):
             print(j,end=" ")
         end+=1
         print()
+
+
+def RR_N_T(length=5):
+    end=length+1
+    for i in range(length):
+        for j in range(1,end):
+            print(j,end=" ")
+        end-=1
+        print()
