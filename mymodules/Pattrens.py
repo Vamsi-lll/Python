@@ -30,4 +30,15 @@ def Hol_Square(length=10, symbol=" *"):
             print(symbol + "  "*(length-2) + symbol)
             
             
-            
+
+def Floyd_Triangle(length=5):
+    start = 1
+    end = 2
+    for i in range(length):
+        for j in range(start, end):
+            print(j, end=" ")
+        start = end
+        end = start + i + 2
+        print()
+
+
