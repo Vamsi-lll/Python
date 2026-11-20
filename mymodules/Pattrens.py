@@ -29,7 +29,11 @@ def Hol_Square(length=10, symbol=" *"):
         else:
             print(symbol + "  "*(length-2) + symbol)
             
-            
+def pyramid(length=10, symbol=" *"):
+    num=length
+    for i in range(length):
+        print(" "*num+symbol*i)
+        num-=1            
 
 def Floyd_Triangle(length=5):
     start = 1
