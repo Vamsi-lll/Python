@@ -33,7 +33,19 @@ def pyramid(length=10, symbol=" *"):
     num=length
     for i in range(length):
         print(" "*num+symbol*i)
-        num-=1            
+        num-=1    
+
+
+def Dimond(length=10, symbol=" *"):
+    num=length
+    for i in range(1,length):
+        print(" "*num+symbol*i)
+        num-=1
+    num=length
+    for i in range(1,length):
+        print(" "*i+symbol*num)
+        num-=1
+
 
 def Floyd_Triangle(length=5):
     start = 1
